@@ -27,12 +27,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1>Sei ad un passo dalla tua nuova professione</h1>
-                    <p>Per assicurare la buona riuscita del corso, ogni candidato deve sostenere
-                        un breve percorso di selezione. Le due caratteristiche fondamentali per
-                        essere un perfetto studente Boolean sono la capacità di ragionamento
-                        critico e la motivazione
-                    </p>
+                    <h1>@lang('general.h1_admission')</h1>
+                    <p>@lang('general.p_admission')</p>
                 </div>
             </div>
         </div>

@@ -17,7 +17,13 @@
                     <a class="nav-link" href="{{ route('home') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('admission.index') }}">Iscriviti</a>
+                    <a class="nav-link" href="{{ route('admission.index') }}">@lang('general.admission')</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/it">IT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/en">EN</a>
                 </li>
             </ul>
         </div>
