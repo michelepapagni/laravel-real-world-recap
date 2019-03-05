@@ -1,0 +1,23 @@
+.admission {
+    .admission_section_1 {
+        padding: 40px 0;
+        text-align: center;
+        p {
+            padding: 0 200px;
+        }
+    }
+    .admission_section_2 {
+        background: #1B3C59;
+        padding: 100px 0;
+        label {
+            color: white;
+        }
+        button {
+            border-radius: 5px;
+            padding: 10px 15px;
+            background: orange;
+            border: 0;
+            color: white;
+        }
+    }
+}
