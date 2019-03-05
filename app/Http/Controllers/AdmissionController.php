@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Lead;
+use App\Jobs\MailAfterLead;
 
 class AdmissionController extends Controller
 {
@@ -27,6 +28,8 @@ class AdmissionController extends Controller
         $lead->save();
 
         //\Log::info('è stato inviato un nuovo messaggio : ' . $lead);
+
+        MailAfterLead::dispatch($lead);
 
         $message = 'Grazie per aver lasciato il messaggio';
 
